@@ -1,0 +1,380 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reverse</title><meta name="author" content="Reverse"><meta name="copyright" content="Reverse"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Reverse">
+<meta property="og:url" content="https://glazedsky.github.io/index.html">
+<meta property="og:site_name" content="Reverse">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://glazedsky.github.io/img/avatar.png">
+<meta property="article:author" content="Reverse">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://glazedsky.github.io/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://glazedsky.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Reverse',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-09-08 18:58:32'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><link rel="stylesheet" href="/css/mycss.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Reverse" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/loading.gif" data-original="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">35</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">43</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://img-blog.csdnimg.cn/20210525110328134.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Reverse</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Reverse</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/revoidmemories" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:re.void.memories@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="rss"><i class="fas fa-rss-square"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/05/28/Butterfly-%E5%AE%89%E8%A3%9D%E6%96%87%E6%AA%94-%E4%B8%80-%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/" title="Butterfly 安裝文檔(一) 快速開始">     <img class="post_bg" src="/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-docs-01-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Butterfly 安裝文檔(一) 快速開始"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/05/28/Butterfly-%E5%AE%89%E8%A3%9D%E6%96%87%E6%AA%94-%E4%B8%80-%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/" title="Butterfly 安裝文檔(一) 快速開始">Butterfly 安裝文檔(一) 快速開始</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">置顶</span><span class="article-meta__separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-05-28T14:31:46.000Z" title="发表于 2020-05-28 22:31:46">2020-05-28</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Docs%E6%96%87%E6%AA%94/">Docs文檔</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Hexo/">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E4%B8%BB%E9%A1%8C/">主題</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/butterfly/">butterfly</a></span></div><div class="content">📖  本教程更新於 2021 年 05 月 11 日，教程的內容針對最新穩定版而更新（如果你是舊版，教程會有些出入，請留意）
+🦋  Butterfly 已經更新到 3.7.7
+
+📚  文檔目錄
+🚀 快速開始 - 📑 主題頁面 - 🛠 主題配置-1 - ⚔️ 主題配置-2 - ❓ 主題問答 - ⚡️ 進階教程 - ✨ 更新日誌 - 🤞 打賞
+
+你可以通過右下角的 簡 按鈕切換為簡體顯示
+
+
+hexo-theme-butterfly是基於 Molunerfinn 的 hexo-theme-melody 的基礎上進行開發的。
+文檔也是在hexo-theme-melody的文檔基礎上修改。因為一些配置變更導致與原主題配置上有部分區別。故如果安裝hexo-theme-butterfly主題，請參考這篇文檔。
+安裝
+Git安裝 (Github)Git安裝 (Gitee)npm安裝穩定版【建議】
+在你的博客根目錄裏
+1git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butt ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/07/10/Computer/Vue/Vue-other/vue%E4%BD%BF%E7%94%A8v-for%E6%97%B6vscode%E6%8A%A5%E9%94%99/" title="vue使用v-for时vscode报错">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="vue使用v-for时vscode报错"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/07/10/Computer/Vue/Vue-other/vue%E4%BD%BF%E7%94%A8v-for%E6%97%B6vscode%E6%8A%A5%E9%94%99/" title="vue使用v-for时vscode报错">vue使用v-for时vscode报错</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-10T08:36:58.000Z" title="发表于 2021-07-10 16:36:58">2021-07-10</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Vue/">Vue</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VSCode/">VSCode</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Vue/">Vue</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/Vue-other/">Vue-other</a></span></div><div class="content">vue使用v-for时vscode报错Elements in iteration expect to have 'v-bind:key' directives
+Vue2.2.0+的版本里，当在组件中使用v-for时，key是必须的
+错误提示:
+12[vue-language-server] Elements in iteration expect to have &#x27;v-bind:key&#x27; directives.Renders the element or template block multiple times based on the source data
+
+原因是eslint检测引起
+
+解决方法：
+
+
+在v-for后添加:key=‘item’
+123&lt;li v-for=&quot;i in list&quot; :key=&quot;i&quot;&gt;&lt;div class=&quot;item&quot; v-for=&quot;(user,index) in datalist&quot; :key=&#x27;index&#x27; &gt ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/13/Computer/%E7%94%B5%E8%84%91/%E8%BE%93%E5%85%A5%E6%B3%95/" title="win10输入法">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="win10输入法"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/13/Computer/%E7%94%B5%E8%84%91/%E8%BE%93%E5%85%A5%E6%B3%95/" title="win10输入法">win10输入法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-13T06:04:53.000Z" title="发表于 2021-06-13 14:04:53">2021-06-13</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%94%B5%E8%84%91/">电脑</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/">快捷键</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E8%BE%93%E5%85%A5%E6%B3%95/">输入法</a></span></div><div class="content">输入法切换方法
+
+WIN+空格键
+ctrl+shift
+
+大写锁定
+
+caps lock
+
+中英标点符号切换
+
+ctrl+.
+
+
+注：在中文状态下，按下快捷键ctrl+.输入的标点符号是英文标点符号
+
+表情包
+
+win+。
+
+V模式
+
+v模式是一个转换和计算的功能组合。由于双拼占用了v键，所以双拼下需要按shift+v进入v模式。
+
+
+支持多种格式的数字(v123: 一百二十三)
+日期(v2016.8.8:2016年8月8日)
+时间(v12:34:十二时三十四分)
+公式(v1+2: 3)
+
+U模式
+
+U模式主要用来输入不会读（不知道拼音）的字等。在按下u键后，输入笔画拼音首字母或者组成部分拼音，即可得到您想要的字。由于双拼占用了u键，所以双拼下需要按shift+u进入u模式。
+
+
+支持笔画(h/橫，s/竖， p/撇，n/捺，z/折)
+拆分(水+水+水=&gt;淼)
+笔画+拆分混合输入
+符号(uudw: 单位， uuxh:序号，uuts: 特殊，uubd:标点，uusx:数学, uujh:几何，uuzm:字母)输入
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/06/13/Computer/Bat/%E5%BC%BA%E5%88%B6%E5%88%A0%E9%99%A4%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/" title="强制删除电脑文件">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="强制删除电脑文件"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/13/Computer/Bat/%E5%BC%BA%E5%88%B6%E5%88%A0%E9%99%A4%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/" title="强制删除电脑文件">强制删除电脑文件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-13T05:29:41.000Z" title="发表于 2021-06-13 13:29:41">2021-06-13</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Bat/">Bat</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Bat/">Bat</a></span></div><div class="content">1.首先，我们复制下面的两行代码
+123DEL /F /A /Q \\?\%1RD /S /Q \\?\%1
+2.然后在电脑上桌面上创建一个记事本文档（文本文档），将复制好的两行代码粘贴进去，然后保存该文件
+3.保存到桌面上就是如下的一个.txt文本文档，文档可以随意命名
+4.将该文本文档后缀改为.bat格式
+5.搞定，将你要删除的文件直接拖到该.bat程序里即可删除。
+
+这样删除电脑文件是彻底删除，所以是不会经过回收站的。
+
+当然，熟悉电脑操作的小伙伴，当然还有更加便捷的方式可以直接永久删除电脑文件：首先选中需要彻底删除的文件，同时按下Shift键和Delete键就搞定了。
+提示：以上两种方式删除电脑文件时不会把删除的文件存放到回收站的，而是直接删除，如果误删想要找回很麻烦，所以操作前应确认是否真的需要彻底删除。
+
+参考链接：
+嘿！稀奇古怪+鲜为人知=牛批！
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/10/Computer/Editors/VSCode%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/" title="VScode自定义快捷输入">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VScode自定义快捷输入"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/10/Computer/Editors/VSCode%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/" title="VScode自定义快捷输入">VScode自定义快捷输入</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-10T03:03:30.000Z" title="发表于 2021-06-10 11:03:30">2021-06-10</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VSCode/">VSCode</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E9%85%8D%E7%BD%AE/">配置</a></span></div><div class="content">位置
+
+ctrl+shift+p
+搜索: snippets
+输入类型: 比如 html、javascript
+
+参数说明
+
+prefix：使用代码段的快捷入口
+body：需要设置的代码放在这里,字符串间换行的话使用\r\n换行符隔开.如果值里包含特殊字符需要进行转义,多行代码以”,”分隔(在引号后面写逗号)
+$0：定义最终光标位置
+$1：定义第一次光标位置，按tab键可进行快速切换, 还可以有 $2, $3, $4, $5，…
+description：代码段描述,在使用智能感知时的描述
+
+常用字符说明
+
+\\ 反斜杠
+\a 警告
+\b 退格符
+\f 换页符
+\n 换行符
+\r 回车符
+\t Tab 符
+\v 垂直 Tab 符
+\u 使用数字指定的Unicode 字符, 如 \u2000
+\x 使用十六进制数指定的Unicode 字符, 如 \xc8
+\0 空值
+
+示例
+HTML
+1234567891011121314151617181920212223242526272829//自定义&quot;phone&quot;: &#123;    &quot;prefix&quot;: &q ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/06/10/Computer/Editors/VSCode%E5%BF%AB%E6%8D%B7%E5%BC%80%E5%8F%91html/" title="VScode快捷开发html">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VScode快捷开发html"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/10/Computer/Editors/VSCode%E5%BF%AB%E6%8D%B7%E5%BC%80%E5%8F%91html/" title="VScode快捷开发html">VScode快捷开发html</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-10T02:44:23.000Z" title="发表于 2021-06-10 10:44:23">2021-06-10</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/VSCode/">VSCode</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/">快捷输入</a></span></div><div class="content">1.输入html:5，然后按tab键或enter键，效果如下：
+123456789101112&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;    &lt;title&gt;Document&lt;/title&gt;&lt;/head&gt;&lt;body&gt;    &lt;/body&gt;&lt;/html&gt;
+2.输入link:css引入css样式文件，输入script:src引入js
+1234&lt;!-- 输入link:css引入样式 -- ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/09/Computer/JavaScript/JS-other/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BF%90%E8%A1%8CJavaScript%E4%BB%A3%E7%A0%81/" title="浏览器地址栏运行JavaScript代码">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器地址栏运行JavaScript代码"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/09/Computer/JavaScript/JS-other/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BF%90%E8%A1%8CJavaScript%E4%BB%A3%E7%A0%81/" title="浏览器地址栏运行JavaScript代码">浏览器地址栏运行JavaScript代码</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-09T11:16:32.000Z" title="发表于 2021-06-09 19:16:32">2021-06-09</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/JavaScript/">JavaScript</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/JavaScript/">JavaScript</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/JS-other/">JS-other</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/">小技巧</a></span></div><div class="content">浏览器地址栏运行JavaScript代码
+比如在地址栏输入以下代码然后回车运行，会弹出窗口。
+1javascript:alert(&#x27;hello from address bar :)&#x27;);
+浏览器地址栏运行HTML代码
+比如在地址栏输入以下代码然后回车运行，会出现指定的页面内容。
+1data:text/html,&lt;h1&gt;Hello, world!&lt;/h1&gt;
+把浏览器当编辑器
+还是浏览器地址栏上做文章，将以下代码贴到地址栏运行后浏览器变成了一个原始而简单的编辑器，与Windows自带的notepad一样，吼吼。
+1data:text/html, &lt;html contenteditable&gt;
+
+归根结底多亏了HTML5中新加的contenteditable属性，当元素指定了该属性后，元素的内容成为可编辑状态。
+
+推而广之，将以下代码放到console执行后，整个页面将变得可编辑，随意践踏吧~
+1document.body.contentEditable=&#x27;true&#x27;;
+隐藏鼠标
+123*&#123;	cursor: ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/06/09/Computer/%E7%94%B5%E8%84%91/%E8%BF%98%E5%8E%9F%E5%81%9A%E6%88%90%E4%BA%86PE%E7%B3%BB%E7%BB%9F%E7%9A%84U%E7%9B%98/" title="还原做成了PE系统的U盘">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="还原做成了PE系统的U盘"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/09/Computer/%E7%94%B5%E8%84%91/%E8%BF%98%E5%8E%9F%E5%81%9A%E6%88%90%E4%BA%86PE%E7%B3%BB%E7%BB%9F%E7%9A%84U%E7%9B%98/" title="还原做成了PE系统的U盘">还原做成了PE系统的U盘</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-09T10:29:26.000Z" title="发表于 2021-06-09 18:29:26">2021-06-09</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%94%B5%E8%84%91/">电脑</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/U%E7%9B%98/">U盘</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/PE%E7%B3%BB%E7%BB%9F/">PE系统</a></span></div><div class="content">1.使用快捷键win+r打开运行窗口
+2.在运行窗口输入diskpart
+3.输入list disk，次时显示磁盘0、磁盘1…（然后根据需要选择）
+4.以磁盘一为例输入select disk 1选中磁盘1
+5.输入clean
+6.win10开始菜单右键选择磁盘管理
+7.在此界面U盘右键选择新加简单卷，然后一直下一步，成功设立新加卷。
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/05/28/Computer/Hexo/Hexo-GitHub/" title="一台电脑使用多个GitHub账号部署多个Hexo博客">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一台电脑使用多个GitHub账号部署多个Hexo博客"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/28/Computer/Hexo/Hexo-GitHub/" title="一台电脑使用多个GitHub账号部署多个Hexo博客">一台电脑使用多个GitHub账号部署多个Hexo博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-28T01:14:12.000Z" title="发表于 2021-05-28 09:14:12">2021-05-28</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a><i class="fas fa-angle-right"></i><a class="article-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/Hexo/">Hexo</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/Hexo/">Hexo</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/GitHub/">GitHub</a><span class="article-meta__link">•</span><a class="article-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a></span></div><div class="content">
+
+SSH的公钥是GitHub作为本地仓库和远程仓库连接的唯一标识，一个公钥只能对应一个GitHub账户，如果将一个相同的公钥上传到不同的GitHub账户，GitHub则无法做出辨识，进而导致错误
+一台电脑，可以生成多对公私钥，可以通过配置，将不同的公钥上传到不同的GitHub账号，那么就不存在单个公钥绑定多个GitHub账号的情况存在了
+
+
+查看当前密钥
+首先我们打开终端输入ls ~/.ssh/可以查看当前已有的密钥，显示id_rsa 与 id_rsa_pub说明已经有一对密钥
+创建新的密钥
+首先使用以下命令进入 SSH根目录下：
+1cd ~/.ssh/
+方法一
+直接使用以下命令创建新密钥，然后两次回车即可：
+1ssh-keygen -t rsa -f  ~/.ssh/这里是新密钥名称 -C &quot;这里是你的邮箱&quot;
+注意区别新密钥名称和旧密钥名称，不要相同！！！
+方法二
+使用下面命令行创建新密钥：
+1ssh-keygen -t rsa -C &quot;这里是你的邮箱&quot;
+回车后会出现：
+12Generating public/private rsa key  ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/05/22/md,latex/" title="math">     <img class="post_bg" src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="math"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/22/md,latex/" title="math">math</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-22T09:05:14.761Z" title="发表于 2021-05-22 17:05:14">2021-05-22</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Demo/">Demo</a></span><span class="article-meta tags"><span class="article-meta__separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/demo/">demo</a></span></div><div class="content">$$\ce{CH4 + 2 $\left( \ce{O2 + 79/21 N2} \right)$}$$
+pie
+    title Key elements in Product X
+    &quot;Calcium&quot; : 42.96
+    &quot;Potassium&quot; : 50.05
+    &quot;Magnesium&quot; : 10.01
+    &quot;Iron&quot; :  5
+graph LR
+		A[长方形] -- 链接 --&gt; B((圆))
+		A --&gt; C(圆角长方形)
+		B --&gt; D{菱形}
+		C --&gt; D
+12345graph LR	A[长方形] -- 链接 --&gt; B((圆))	A --&gt; C(圆角长方形)	B --&gt; D&#123;菱形&#125;	C --&gt; D</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/loading.gif" data-original="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Reverse</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">35</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">43</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/revoidmemories"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/revoidmemories" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:re.void.memories@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="rss"><i class="fas fa-rss-square"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">欢迎来到Reverse的小站<br/><span style="color:red;">网站建设中...</span></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/10/Computer/Vue/Vue-other/vue%E4%BD%BF%E7%94%A8v-for%E6%97%B6vscode%E6%8A%A5%E9%94%99/" title="vue使用v-for时vscode报错"><img src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="vue使用v-for时vscode报错"/></a><div class="content"><a class="title" href="/2021/07/10/Computer/Vue/Vue-other/vue%E4%BD%BF%E7%94%A8v-for%E6%97%B6vscode%E6%8A%A5%E9%94%99/" title="vue使用v-for时vscode报错">vue使用v-for时vscode报错</a><time datetime="2021-07-10T08:36:58.000Z" title="发表于 2021-07-10 16:36:58">2021-07-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/13/Computer/%E7%94%B5%E8%84%91/%E8%BE%93%E5%85%A5%E6%B3%95/" title="win10输入法"><img src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="win10输入法"/></a><div class="content"><a class="title" href="/2021/06/13/Computer/%E7%94%B5%E8%84%91/%E8%BE%93%E5%85%A5%E6%B3%95/" title="win10输入法">win10输入法</a><time datetime="2021-06-13T06:04:53.000Z" title="发表于 2021-06-13 14:04:53">2021-06-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/13/Computer/Bat/%E5%BC%BA%E5%88%B6%E5%88%A0%E9%99%A4%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/" title="强制删除电脑文件"><img src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="强制删除电脑文件"/></a><div class="content"><a class="title" href="/2021/06/13/Computer/Bat/%E5%BC%BA%E5%88%B6%E5%88%A0%E9%99%A4%E7%94%B5%E8%84%91%E6%96%87%E4%BB%B6/" title="强制删除电脑文件">强制删除电脑文件</a><time datetime="2021-06-13T05:29:41.000Z" title="发表于 2021-06-13 13:29:41">2021-06-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/10/Computer/Editors/VSCode%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/" title="VScode自定义快捷输入"><img src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VScode自定义快捷输入"/></a><div class="content"><a class="title" href="/2021/06/10/Computer/Editors/VSCode%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/" title="VScode自定义快捷输入">VScode自定义快捷输入</a><time datetime="2021-06-10T03:03:30.000Z" title="发表于 2021-06-10 11:03:30">2021-06-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/10/Computer/Editors/VSCode%E5%BF%AB%E6%8D%B7%E5%BC%80%E5%8F%91html/" title="VScode快捷开发html"><img src="/img/loading.gif" data-original="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="VScode快捷开发html"/></a><div class="content"><a class="title" href="/2021/06/10/Computer/Editors/VSCode%E5%BF%AB%E6%8D%B7%E5%BC%80%E5%8F%91html/" title="VScode快捷开发html">VScode快捷开发html</a><time datetime="2021-06-10T02:44:23.000Z" title="发表于 2021-06-10 10:44:23">2021-06-10</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACGN/"><span class="card-category-list-name">ACGN</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/ACGN/Other/"><span class="card-category-list-name">Other</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Demo/"><span class="card-category-list-name">Demo</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Docs%E6%96%87%E6%AA%94/"><span class="card-category-list-name">Docs文檔</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/SubjChinese/"><span class="card-category-list-name">SubjChinese</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Subject/"><span class="card-category-list-name">Subject</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Subject/Chinese/"><span class="card-category-list-name">Chinese</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Thx/"><span class="card-category-list-name">Thx</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.39em; color: rgb(175, 173, 169)">教程</a><a href="/tags/Hexo/" style="font-size: 1.39em; color: rgb(120, 45, 36)">Hexo</a><a href="/tags/%E4%B8%BB%E9%A1%8C/" style="font-size: 1.33em; color: rgb(114, 132, 115)">主題</a><a href="/tags/butterfly/" style="font-size: 1.45em; color: rgb(141, 172, 156)">butterfly</a><a href="/tags/%E6%89%93%E8%B3%9E/" style="font-size: 1.15em; color: rgb(165, 41, 141)">打賞</a><a href="/tags/Aplayer/" style="font-size: 1.15em; color: rgb(114, 18, 95)">Aplayer</a><a href="/tags/%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B/" style="font-size: 1.21em; color: rgb(171, 111, 115)">標籤外掛</a><a href="/tags/Butterfly/" style="font-size: 1.15em; color: rgb(25, 31, 157)">Butterfly</a><a href="/tags/%E7%BE%8E%E5%8C%96/" style="font-size: 1.15em; color: rgb(116, 83, 49)">美化</a><a href="/tags/%E5%84%AA%E5%8C%96/" style="font-size: 1.15em; color: rgb(170, 123, 130)">優化</a><a href="/tags/%E9%AD%94%E6%94%B9/" style="font-size: 1.15em; color: rgb(164, 138, 87)">魔改</a><a href="/tags/highlight/" style="font-size: 1.15em; color: rgb(68, 74, 19)">highlight</a><a href="/tags/demo/" style="font-size: 1.21em; color: rgb(50, 25, 84)">demo</a><a href="/tags/top-img/" style="font-size: 1.15em; color: rgb(165, 141, 166)">top_img</a><a href="/tags/%E5%8A%A8%E6%BC%AB/" style="font-size: 1.15em; color: rgb(108, 183, 37)">动漫</a><a href="/tags/%E5%8F%B0%E8%AF%8D/" style="font-size: 1.15em; color: rgb(8, 3, 161)">台词</a><a href="/tags/%E6%91%98%E5%BD%95/" style="font-size: 1.21em; color: rgb(162, 15, 3)">摘录</a><a href="/tags/%E6%96%87%E5%AD%A6%E5%B8%B8%E8%AF%86/" style="font-size: 1.15em; color: rgb(48, 43, 28)">文学常识</a><a href="/tags/%E5%90%8D%E8%A8%80/" style="font-size: 1.15em; color: rgb(183, 117, 106)">名言</a><a href="/tags/Bat/" style="font-size: 1.15em; color: rgb(52, 182, 41)">Bat</a><a href="/tags/VSCode/" style="font-size: 1.27em; color: rgb(195, 112, 68)">VSCode</a><a href="/tags/%E5%BF%AB%E6%8D%B7%E8%BE%93%E5%85%A5/" style="font-size: 1.15em; color: rgb(120, 42, 3)">快捷输入</a><a href="/tags/GitHub/" style="font-size: 1.15em; color: rgb(77, 130, 114)">GitHub</a><a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.15em; color: rgb(16, 139, 170)">博客</a><a href="/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/" style="font-size: 1.27em; color: rgb(166, 137, 82)">快捷键</a><a href="/tags/windows/" style="font-size: 1.21em; color: rgb(141, 199, 172)">windows</a><a href="/tags/%E9%85%8D%E7%BD%AE/" style="font-size: 1.15em; color: rgb(71, 51, 166)">配置</a><a href="/tags/%E8%BE%93%E5%85%A5%E6%B3%95/" style="font-size: 1.15em; color: rgb(33, 45, 67)">输入法</a><a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/" style="font-size: 1.15em; color: rgb(86, 13, 68)">浏览器插件</a><a href="/tags/U%E7%9B%98/" style="font-size: 1.15em; color: rgb(157, 23, 79)">U盘</a><a href="/tags/PE%E7%B3%BB%E7%BB%9F/" style="font-size: 1.15em; color: rgb(148, 84, 111)">PE系统</a><a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 1.15em; color: rgb(113, 61, 159)">浏览器</a><a href="/tags/JavaScript/" style="font-size: 1.15em; color: rgb(159, 169, 13)">JavaScript</a><a href="/tags/JS-other/" style="font-size: 1.15em; color: rgb(125, 111, 107)">JS-other</a><a href="/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/" style="font-size: 1.15em; color: rgb(1, 96, 37)">小技巧</a><a href="/tags/Excel/" style="font-size: 1.15em; color: rgb(43, 13, 183)">Excel</a><a href="/tags/Office/" style="font-size: 1.21em; color: rgb(147, 154, 111)">Office</a><a href="/tags/PPT/" style="font-size: 1.15em; color: rgb(150, 136, 73)">PPT</a><a href="/tags/Java/" style="font-size: 1.21em; color: rgb(37, 152, 108)">Java</a><a href="/tags/Java-Note/" style="font-size: 1.21em; color: rgb(168, 15, 82)">Java-Note</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/10/"><span class="card-archive-list-date">十月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">35</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2021-05-10T03:22:33.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">63.7k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-09-08T10:58:29.762Z"></div></div></div></div><div class="card-widget card-docs card-categories" style="order: -1"><div class="item-headline"><i class="fas fa-car-side"></i><span>文檔目錄</span></div><div class="item-content"><ul class=card-category-list> <li class=card-category-list-item><a class=card-category-list-link href=/2020/05/28/Butterfly-安裝文檔-一-快速開始/ >🚀 快速開始</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/2020/05/28/Butterfly-安裝文檔-二-主題頁面/ >📑 主題頁面</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4aa8abbe/ >🛠 主題配置-1</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/ceeb73f/ >⚔️ 主題配置-2</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/98d20436/ >❓ 主題問答</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/4073eda/ >⚡️ 進階教程</a></li> <li class=card-category-list-item><a class=card-category-list-link href=/posts/198a4240/ >✨ 更新日誌</a></li> </ul></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Reverse</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://re-reverse.github.io/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (true) { 
+    var typed = new Typed("#subtitle", {
+      strings: "今日事&#44;今日毕,Never put off till tomorrow what you can do today".split(","),
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '今日事&#44;今日毕'
+  }
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      false && mermaid.init()
+    })
+  }
+}</script></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="/live2d/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2d/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"debug":true,"model":{"jsonPath":"/live2d/assets/weier.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.8}});</script><script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body></html>
